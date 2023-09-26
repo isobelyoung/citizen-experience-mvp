@@ -1,0 +1,7 @@
+.text-box {
+    background-color: white;
+    border: 2px solid #252525;
+    box-shadow: inset;
+    font-size: 16px;
+    border-radius: 10px;
+}

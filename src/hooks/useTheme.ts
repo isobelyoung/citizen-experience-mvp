@@ -1,19 +1,19 @@
-import { useCallback } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useCallback } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
-import { RootState } from "../store";
-import { Theme, setTheme } from "../store/slices/appSlice";
+import { RootState } from '../store';
+import { Theme, setTheme } from '../store/reducers/appReducer';
 
 const useTheme = () => {
-  const dispatch = useDispatch();
+    const dispatch = useDispatch();
 
-  const { theme } = useSelector((state: RootState) => state.app);
+    const { theme } = useSelector((state: RootState) => state.app);
 
-  const setCurrentTheme = useCallback((theme: Theme) => {
-    dispatch(setTheme(theme));
-  }, []);
+    const setCurrentTheme = useCallback((theme: Theme) => {
+        dispatch(setTheme(theme));
+    }, []);
 
-  return { theme, setCurrentTheme };
+    return { theme, setCurrentTheme };
 };
 
 export default useTheme;

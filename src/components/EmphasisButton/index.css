@@ -1,0 +1,15 @@
+.emphasis-button {
+    background-color: white;
+    color: #252525;
+    border: 2px solid white;
+    padding: 0.5rem 3rem;
+    /* font-family:'Courier New', Courier, monospace; */
+    font-weight: 600;
+    border-radius: 10px;
+}
+
+.emphasis-button:hover {
+    background-color: #252525;
+    color: white;
+    transition: 0.1s linear;
+}

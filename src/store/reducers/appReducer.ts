@@ -15,12 +15,12 @@ export interface AppState {
    language: Language;
 }
 
-const INITIAL_STATE = {
+const INITIAL_STATE: AppState = {
    theme: Theme.Light,
    language: Language.EN,
-} as AppState;
+};
 
-const appSlice = createSlice({
+export const appReducer = createSlice({
    name: 'app',
    initialState: INITIAL_STATE,
    reducers: {
@@ -33,6 +33,6 @@ const appSlice = createSlice({
    },
 });
 
-export const { setTheme, setLanguage } = appSlice.actions;
+export const { setTheme, setLanguage } = appReducer.actions;
 
-export default appSlice.reducer;
+// export default appReducer;

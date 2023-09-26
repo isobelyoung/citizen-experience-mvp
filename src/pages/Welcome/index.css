@@ -1,0 +1,17 @@
+.logo {
+    max-width: 15%;
+    display: inline;
+    height: auto;
+    padding: 3rem 0;
+}
+
+.squish-width {
+    margin: auto auto;
+    width: 90%;
+}
+
+@media (min-width: 800px) {
+    .squish-width {
+        width: 60%;
+    }
+}

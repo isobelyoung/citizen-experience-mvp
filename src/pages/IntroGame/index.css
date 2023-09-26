@@ -1,0 +1,16 @@
+.play-window {
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+}
+
+.type-wrapper {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.type-wrapper div {
+    height: 100%;
+}

@@ -6,7 +6,9 @@ import PageWrapper from '../views/PageWrapper';
 
 import paths from './paths';
 
-const Home = lazy(() => import('../pages/Home'));
+const Welcome = lazy(() => import('../pages/Welcome'));
+const IntroGame = lazy(() => import('../pages/IntroGame'));
+const PlayGame = lazy(() => import('../pages/PlayGame'));
 const PageNotFound = lazy(() => import('../pages/NotFound'));
 
 interface Routes {
@@ -23,7 +25,9 @@ const getRouteElement = (Component: React.ElementType): React.ReactNode => (
 );
 
 const routes: Routes[] = [
-   { path: paths.HOME, element: getRouteElement(Home) },
+   { path: paths.HOME, element: getRouteElement(Welcome) },
+   { path: paths.INTRO_GAME, element: getRouteElement(IntroGame) },
+   { path: paths.PLAY_GAME, element: getRouteElement(PlayGame) },
    { path: paths.NOT_FOUND, element: getRouteElement(PageNotFound) },
 ];
 
