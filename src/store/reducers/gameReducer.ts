@@ -4,7 +4,7 @@ import { StringLiteral } from 'typescript';
 export interface PromptResponseState {
     step: number;
     response: string;
-    userInput?: 1 | 2;
+    userInput?: 0 | 1 | 2;
 };
 
 export interface ScenarioState {
@@ -13,9 +13,17 @@ export interface ScenarioState {
     PLOT: string;
 };
 
+export type IRole = 'user' | 'function' | 'assistant' | 'system';
+
+export interface ConversationHistoryState {
+    role: IRole,
+    content: string,
+}
+
 export interface GameState {
     scenario: ScenarioState;
     prompts: PromptResponseState[];
+    conversationHistory: ConversationHistoryState[];
     // add other config here if needed
 };
 
@@ -28,7 +36,11 @@ const initialState: GameState = {
     prompts: [{
         step: 0,
         response: ''
-    }]
+    }],
+    conversationHistory: [{
+        role: 'system',
+        content: ''
+    }],
 };
 
 export const gameReducer = createSlice({
@@ -49,7 +61,13 @@ export const gameReducer = createSlice({
             const { index, input } = payload;
             state.prompts[index].userInput = input;
         },
+        setStartConversationHistory: (state, { payload }) => {
+            state.conversationHistory = [payload]
+        },
+        setConversationHistory: (state, { payload }) => {
+            state.conversationHistory.push(payload)
+        },
     }
 })
 
-export const { setScenario, setPromptResponse, setUserInput, setFirstPromptResponse } = gameReducer.actions;
+export const { setScenario, setPromptResponse, setUserInput, setFirstPromptResponse, setConversationHistory, setStartConversationHistory } = gameReducer.actions;

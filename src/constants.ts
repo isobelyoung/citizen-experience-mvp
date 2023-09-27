@@ -36,5 +36,7 @@ export const SETUP_PROMPT = `I want you to act as a text based adventure game. I
 
     Refer to the disaster relief guide of the specified region to inform options given to player. If not, use general disaster response guidelines.
 
-    The game should have 10 steps. At this point, end the game and tell the player if they acted safely in the emergency situation.
+    The user will respond with their chosen action. Based on their choice, generate the next step in the game in line with the story plot.
+
+    Remember the user's actions and how it impacts the story. Generate the next step in the story based on their choice of action.
     `

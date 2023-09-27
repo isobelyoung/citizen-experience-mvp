@@ -1,0 +1,45 @@
+.loading-dots::after {
+    content: '.';
+    animation: dots 1s steps(5, end) infinite;
+}
+
+.loading-dots {
+    color: initial;
+    letter-spacing: 2rem;
+    text-align: center;
+}
+
+.normal {
+    font-size: inherit;
+}
+
+.large {
+    font-size: 2rem;
+}
+
+@keyframes dots {
+    0%,
+    20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow:
+            1em 0 0 rgba(0, 0, 0, 0),
+            2em 0 0 rgba(0, 0, 0, 0);
+    }
+    40% {
+        color: black;
+        text-shadow:
+            1em 0 0 rgba(0, 0, 0, 0),
+            2em 0 0 rgba(0, 0, 0, 0);
+    }
+    60% {
+        text-shadow:
+            1em 0 0 black,
+            2em 0 0 rgba(0, 0, 0, 0);
+    }
+    80%,
+    100% {
+        text-shadow:
+            1em 0 0 black,
+            2em 0 0 black;
+    }
+}

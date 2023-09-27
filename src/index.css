@@ -23,8 +23,32 @@ h1 {
     box-sizing: border-box;
 }
 
+.p-2 {
+    padding: 2rem;
+}
+
 .py-2 {
-  padding: 2rem 0;
+    padding: 2rem 0;
+}
+
+.px-2 {
+    padding: 0 2rem;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.my-2 {
+    margin: 2rem 0;
+}
+
+.m-0 {
+    margin: 0 !important;
+}
+
+.display-block {
+    display: block;
 }
 
 .flex {
