@@ -1,6 +1,6 @@
 Welcome to the CheonJae VR Web Experience MVP
 
-![CheonJae VR](https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/a22835b0-65ce-4de6-85fb-580143c7aa1f)
+![CheonJae VR - small](https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/7a8b2ac4-5322-44c4-b42a-9195ca05a062)
 
 _“Our vision is to empower citizens and rescuers in facing a thousand disasters.“_
 
