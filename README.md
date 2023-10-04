@@ -7,9 +7,9 @@ _“Our vision is to empower citizens and rescuers in facing a thousand disaster
 Developed for the Seoul National University x Meta Metaverse Policy Hackathon, this frontend-only application delivers a 'Choose Your Own Adventure' game that leverages the Open AI API to dynamically render each step and scene.
 
 To start:
-Clone the repo
-Add your own Open AI API key (suggested in an .env file)
+\nClone the repo
+\nAdd your own Open AI API key (suggested in an .env file)
 
 In terminal:
-npm install
-npm start
+\nnpm install
+\nnpm start
