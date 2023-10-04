@@ -1,0 +1,14 @@
+.type-wrapper {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gif-wrapper {
+    width: 20%;
+}
+
+.gif-wrapper img {
+    width: 100%;
+}

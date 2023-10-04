@@ -3,10 +3,27 @@
     animation: dots 1s steps(5, end) infinite;
 }
 
-.loading-dots {
-    color: initial;
-    letter-spacing: 2rem;
+.loading-dots-light {
     text-align: center;
+}
+
+.loading-dots-light::after {
+    content: '.';
+    animation: light-dots 1s steps(5, end) infinite;
+    text-align: center;
+}
+
+.loading-dots {
+    color: inherit;
+    text-align: center;
+}
+
+.light-text {
+    color: white !important;
+}
+
+.dark-text {
+    color: black;
 }
 
 .normal {
@@ -41,5 +58,32 @@
         text-shadow:
             1em 0 0 black,
             2em 0 0 black;
+    }
+}
+
+@keyframes light-dots {
+    0%,
+    20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow:
+            1em 0 0 rgba(0, 0, 0, 0),
+            2em 0 0 rgba(0, 0, 0, 0);
+    }
+    40% {
+        color: white;
+        text-shadow:
+            1em 0 0 rgba(0, 0, 0, 0),
+            2em 0 0 rgba(0, 0, 0, 0);
+    }
+    60% {
+        text-shadow:
+            1em 0 0 white,
+            2em 0 0 rgba(0, 0, 0, 0);
+    }
+    80%,
+    100% {
+        text-shadow:
+            1em 0 0 white,
+            2em 0 0 white;
     }
 }

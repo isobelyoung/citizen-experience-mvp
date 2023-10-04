@@ -16,7 +16,7 @@ const EmphasisButton = ({text, onClick, alignment, additionalClasses}: EmphasisB
                 className='nes-btn'
                 onClick={onClick}
             >
-                {text}
+                &nbsp;&nbsp;{text}&nbsp;&nbsp;
             </button>
         </div>
     )
