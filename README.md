@@ -13,3 +13,6 @@ Add your own Open AI API key (suggested in an .env file)
 **In terminal:** <br />
 npm install <br />
 npm start
+
+**Note:**
+This repo was built solo over the space of a week - it is passenger one on the hot mess express. I took some (okay, many) liberties for the purposes of speed so it does not fully represent best practices, just many 2am finishes.   
