@@ -16,3 +16,5 @@ npm start
 
 **Note:**
 This repo was built solo over the space of a week - it is passenger one on the hot mess express. I took some (okay, many) liberties for the purposes of speed so it does not fully represent best practices, just many 2am finishes.   
+
+I also would like to reference this tutorial from Gentle Bull Co on medium for providing a lot of the direction for prompt engineering with Open ai: https://gentlebullco.medium.com/turn-chatgpt-into-an-open-ended-choose-your-own-adventure-game-and-role-play-any-story-you-want-ad4572cb9077 
