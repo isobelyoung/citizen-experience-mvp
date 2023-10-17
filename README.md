@@ -1,6 +1,6 @@
 **Welcome to the CheonJae VR Web Experience MVP**
 
-<img width="446" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/f1565e83-ccb7-4f0f-903c-a5fb8ba268f8">
+<img width="220" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/792ce4fc-665d-491f-b335-8310a6c20156">
 
 _“Our vision is to empower citizens and rescuers in facing a thousand disasters.“_
 
@@ -21,9 +21,9 @@ I also would like to reference this tutorial from Gentle Bull Co on medium for p
 
 <img width="1200" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/c00aede9-21a8-44d3-ae93-67a4d36faf62">
 
-<img width="897" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/5d45b7f8-e5b2-4915-ac9b-5b6b39498c5b">
+<img width="1200" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/5d45b7f8-e5b2-4915-ac9b-5b6b39498c5b">
 
- <img width="899" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/673839b4-cd89-4b03-97a9-680e2e4f318c">
+ <img width="1200" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/673839b4-cd89-4b03-97a9-680e2e4f318c">
  
-<img width="901" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/287ebe3e-46a2-4ddf-916f-3e597a22d3af">
+<img width="1200" alt="image" src="https://github.com/isobelyoung/citizen-experience-mvp/assets/30540748/287ebe3e-46a2-4ddf-916f-3e597a22d3af">
  
